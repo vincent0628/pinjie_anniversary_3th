@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Surprise!</title>
+  <style>
+    body {
+      background-color: #f7e8e8;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #d81b60;
+      margin-top: 0;
+    }
+
+    .left-text {
+      float: left;
+      color: #d81b60;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .right-text {
+      float: right;
+      color: #d81b60;
+      font-size: 20px;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+
+    .message {
+      font-size: 16px;
+      color: #777;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .heart-container {
+      margin-top: 30px;
+    }
+
+    .heart {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+      animation: blink 1s infinite;
+    }
+
+    video {
+    width: 100%;
+    max-height: 300px;
+    }
+    @keyframes blink {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Surprise!</h1>
+    <div class="heart-container">
+      <span class="heart">&#x2665;</span>
+      <span class="heart">&#x2665;</span>
+      <span class="heart">&#x2665;</span>
+      <span class="heart">&#x2665;</span>
+      <span class="heart">&#x2665;</span>
+    </div>
+    <div>
+      <p class="left-text">❤️ Happy 3th-Year</p>
+      <p class="right-text">Anniversary! ❤️</p>
+    </div>
+    <div style="clear: both;"></div>
+    <video controls>
+        <source src="3th.mov" type="video/mp4">
+        您的瀏覽器不支援影片播放。
+    </video>
+    <div>
+      <p class="message">My dearest 婕瓜,</p>
+      <p class="message">三年的時光匆匆而過,</p>
+      <p class="message">每一天我們的愛情都變得更加堅固,</p>
+      <p class="message">謝謝你常常體諒我的白目和常常講錯話</p>
+      <p class="message">珍貴的回憶,</p>
+      <p class="message">讓我記錄你帶來的歡樂、笑聲和幸福感</p>
+      <p class="message">讓我全心全意地繼續愛你</p>
+      <p class="message">With all my love,</p>
+      <p class="message">Your 阿文</p>
+    </div>
+    <div class="heart-container">
+      <span class="heart">&#x2665;</span>
+      <span class="heart">&#x2665;</span>
+      <span class="heart">&#x2665;</span>
+      <span class="heart">&#x2665;</span>
+      <span class="heart">&#x2665;</span>
+    </div>
+  </div>
+</body>
+</html>
